@@ -1719,6 +1719,6 @@ async def say(ctx, *, message):
 
 if __name__ == "__main__":
     # ВСТАВЬТЕ ВАШ ТОКЕН СЮДА
-    TOKEN = "MTMzMzM1MDY4NTQxMjAzNjYzOA.Gn_OoO.TkTWwRDIJ27yDWdlYCmT1jGmoOtxbk1CLQopDc"
+    TOKEN = "MTMzMzM1MDY4NTQxMjAzNjYzOA.GC7kvq.SZxBt386GRh-A9jY9xOJy4llkQ90Dw3McYQ_ik"
     
     bot.run(TOKEN)

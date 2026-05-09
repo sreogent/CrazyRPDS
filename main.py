@@ -1719,6 +1719,6 @@ async def say(ctx, *, message):
 
 if __name__ == "__main__":
     # ВАШ РАБОЧИЙ ТОКЕН (тот, который работает в test.py)
-    TOKEN = "MTMzMzM1MDY4NTQxMjAzNjYzOA.GC7kvq.SZxBt386GRh-A9jY9xOJy4llkQ90Dw3McYQ_ik"
+    TOKEN = "MTMzMzM1MDY4NTQxMjAzNjYzOA.G6oQjj.Oba4lF6Sh4PGyjHETLFhPgNkDmr3krgLvvS3h8"
     
     bot.run(TOKEN)

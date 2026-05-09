@@ -1,7 +1,7 @@
 import discord
 
 # ВСТАВЬТЕ ТОКЕН ВРУЧНУЮ (НОВЫЙ, ПОСЛЕ СБРОСА)
-TOKEN = "MTMzMz1MDY4NTQxMjAzNjYzOA.GloWis.T1SK_SOJzV77-DjDPniAkKK7-uTqMDsQZhyh_k"
+TOKEN = "MTMzMzM1MDY4NTQxMjAzNjYzOA.GloWis.T1SK_S0JzV77-DjDPniAkKK7-uTqMDsQZhhv_k"
 
 print("1. Начинаем подключение...")
 print(f"2. Длина токена: {len(TOKEN)}")

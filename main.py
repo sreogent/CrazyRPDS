@@ -1,7 +1,7 @@
 import discord
 
 # НОВЫЙ ТОКЕН
-TOKEN = "MMTMzMzM1MDY4NTQxMjAzNjYzOA.GpnmUL1vsVOujds293LuDF-BB548wHYGqf06UDaWGO-U"
+TOKEN = "MTMzMzM1MDY4NTQxMjAzNjYzOA.GpnmUL1vsVOujds293LuDF-BB548wHYGqf06UDaWGO-U"
 
 print("🚀 Запуск бота...")
 print(f"✅ Токен загружен, длина: {len(TOKEN)}")

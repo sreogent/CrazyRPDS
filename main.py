@@ -1,16 +1,18 @@
 import discord
 
-# ВСТАВЬТЕ ТОКЕН ВРУЧНУЮ (НОВЫЙ, ПОСЛЕ СБРОСА)
-TOKEN = "MTMzMzM1MDY4NTQxMjAzNjYzOA.GloWis.T1SK_S0JzV77-DjDPniAkKK7-uTqMDsQZhhv_k"
+# НОВЫЙ ТОКЕН
+TOKEN = "MTMzMz1MDY4NTQxMjAzNjYzOA.GpnmlU1vsVOujds293LuDF-BB548wHYGqf06UDAwWGO-U"
 
-print("1. Начинаем подключение...")
-print(f"2. Длина токена: {len(TOKEN)}")
+print("🚀 Запуск бота...")
+print(f"✅ Токен загружен, длина: {len(TOKEN)}")
 
-class TestClient(discord.Client):
+class Bot(discord.Client):
     async def on_ready(self):
-        print(f"3. ✅✅✅ БОТ ЗАПУЩЕН: {self.user}")
-        print(f"4. На серверах: {len(self.guilds)}")
-        await self.close()
+        print("=" * 50)
+        print(f"✅✅✅ БОТ УСПЕШНО ЗАПУЩЕН! ✅✅✅")
+        print(f"📌 Имя: {self.user}")
+        print(f"📌 ID: {self.user.id}")
+        print("=" * 50)
 
-client = TestClient(intents=discord.Intents.default())
-client.run(TOKEN)
+bot = Bot(intents=discord.Intents.all())
+bot.run(TOKEN)
